@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.bossien</groupId>
+	<artifactId>skc-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>skc-parent</name>
+	<url>http://maven.apache.org</url>
+
+	<modules>
+		<module>common</module>
+		<module>auth-service</module>
+		<module>eureka</module>
+		<module>zipkin</module>
+		<module>admin-service</module>
+		<module>feign</module>
+		<module>zuul</module>
+		<module>student-mq</module>
+		<module>student-extract</module>
+		<module>student-process</module>
+		<module>student-handin</module>
+		<module>student-submit-paper</module>
+		<module>student-submit-process</module>
+		<module>course-service</module>
+		<module>portal-cms</module>
+		<module>student-service</module>
+		<module>config-server</module>
+		<module>student-task</module>
+		<module>student-api</module>
+		<module>flowtreatment-service</module>
+		<module>flowtreatment-batch</module>
+		<module>student-shortmessage</module>
+		<module>ntp-service</module>
+		<module>student-company</module>
+		<module>student-oldmsg</module>
+	</modules>
+
+	<dependencies>
+
+	</dependencies>
+
+	<!--&lt;!&ndash; 打包插件 &ndash;&gt;-->
+	<!--<build>-->
+	<!--<plugins>-->
+	<!--<plugin>-->
+	<!--<groupId>org.apache.maven.plugins</groupId>-->
+	<!--<artifactId>maven-compiler-plugin</artifactId>-->
+	<!--<version>3.1</version>-->
+	<!--<configuration>-->
+	<!--<failOnError>true</failOnError>-->
+	<!--<verbose>true</verbose>-->
+	<!--<fork>true</fork>-->
+	<!--<compilerArgument>-nowarn</compilerArgument>-->
+	<!--<source>1.8</source>-->
+	<!--<target>1.8</target>-->
+	<!--<encoding>UTF-8</encoding>-->
+	<!--</configuration>-->
+	<!--</plugin>-->
+	<!--</plugins>-->
+	<!--</build>-->
+
+</project>
