@@ -10,11 +10,9 @@
 	<url>http://maven.apache.org</url>
 
 	<modules>
-		<!--
 		<module>common</module>
-		<module>auth-service</module> -->
+		<module>auth-service</module>
 		<module>eureka</module>
-		<!--
 		<module>zipkin</module>
 		<module>admin-service</module>
 		<module>feign</module>
@@ -36,7 +34,7 @@
 		<module>student-shortmessage</module>
 		<module>ntp-service</module>
 		<module>student-company</module>
-		<module>student-oldmsg</module>-->
+		<module>student-oldmsg</module>
 	</modules>
 
 	<dependencies>
